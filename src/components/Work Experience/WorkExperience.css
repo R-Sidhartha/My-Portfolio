@@ -1,0 +1,119 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.workexperience_container{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.workexperience_container:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+.company-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.company-details p{
+    font-size: small;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.vertical-line {
+  width: 2px;
+  height: 100%;
+  background-color: white; /* Adjust color as needed */
+}
+
+.horizontal-line {
+  width: 100%; /* Full width */
+  height: 1px; /* Adjust thickness as needed */
+  background-color: white; /* Adjust color as needed */
+}
+.lines {
+  display: flex;
+}
+.vertical-line {
+  height: 650px;
+  width: 2px;
+  background-color: white;
+}
+.left-horizontal-lines {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  justify-content: center;
+  gap: 8rem;
+}
+.right-horizontal-lines {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.horizontal-line {
+  width: 50px;
+  height: 2px;
+  background-color: white;
+}
+.right-contribution {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contribution {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1rem;
+}
+.work-details {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+.work-details h4{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+}
+.task_details {
+  margin-left: 4rem;
+  font-size: small;
+}
+.task_details li {
+  list-style: circle;
+}
+.nested-list {
+  padding: 0;
+  margin-left: 4rem;
+  font-size: smaller;
+}
+.head {
+  font-weight: 600;
+}
+.details {
+  font-size: smaller;
+  margin-left: 2px;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+}

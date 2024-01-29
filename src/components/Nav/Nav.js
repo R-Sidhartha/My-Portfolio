@@ -19,15 +19,12 @@ const Nav = () => {
         setactive('#');
       } else if (scrollPosition < 1000) {
         setactive('#about');
-      } else if (scrollPosition < 2000) {
+      } else if (scrollPosition < 4200) {
         setactive('#experience');
-      } else if (scrollPosition < 3500 ) {
+      } else if (scrollPosition < 5300 ) {
         setactive('#services');
-      } else if (scrollPosition < 4000 ) {
+      } else {
         setactive('#contact');
-      }
-      else{
-        setactive('#')
       }
     };
 

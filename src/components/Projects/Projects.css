@@ -3,6 +3,31 @@
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem;
 }
+.tag-buttons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+
+.tag-buttons button{
+    font-size: medium;
+    background: var(--color-bg-variant);
+    color: rgb(203, 227, 250);
+    padding: 13px 25px;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    
+}
+.tag-buttons button.active {
+    background: rgba(var(--color-bg-variant-rgb), 0.5); /* Adjust the alpha value (0.5 for 50% transparency) */
+    border-color: var(--color-primary-variant);
+}
+.tag-buttons button:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
 
 .portfolio_item{
     background: var(--color-bg-variant);

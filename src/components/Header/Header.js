@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Header.css'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -6,6 +6,23 @@ import { FaThreads } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import mypic2 from '../Pics/mypic3.jpg'
 const Header = () => {
+  const [borderRadius, setBorderRadius] = useState('30% 70% 62% 38% / 44% 28% 72% 56%');
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      // Generate random values for border-radius
+      const randomValues = [
+        Math.random() * 100,
+        Math.random() * 100,
+        Math.random() * 100,
+        Math.random() * 100,
+      ];
+
+      // Set the new border-radius values
+      setBorderRadius(`${randomValues[0]}% ${randomValues[1]}% ${randomValues[2]}% ${randomValues[3]}% / 44% 28% 72% 56%`);
+    }, 1000);
+
+    return () => clearInterval(intervalId);
+  }, []); 
   return (
     <div>
       <header>
@@ -22,7 +39,7 @@ const Header = () => {
             </a>
             {/* resume and let's talk buttons */}
           </div>
-          <div className="me">
+          <div className="me" style={{borderRadius:borderRadius,transition: 'border-radius 1s ease-in-out'}}>
             <img src={mypic2} alt="Me" />
           </div>
           <a href="#contact" className="scroll_down">Scroll Down</a>

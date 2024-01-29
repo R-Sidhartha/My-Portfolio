@@ -6,8 +6,9 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Services from './components/Services/Services';
-import Testimonials from './components/Testimonials/Testimonials';
+// import Testimonials from './components/Testimonials/Testimonials';
 import Projects from './components/Projects/Projects';
+import WorkExperience from './components/Work Experience/WorkExperience';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Nav/>
       <About/>
       <Experience/>
+      <WorkExperience/>
       <Projects/>
       <Services/>
       {/* <Testimonials/> */}

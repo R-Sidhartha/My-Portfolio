@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { FaAward } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
+import { FaUniversity } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import mypic from "../Pics/mypic8.jpg";
 const About = () => {
@@ -23,9 +23,9 @@ const About = () => {
               <small>1+ year Experience</small>
             </article>
             <article className="about_card">
-              <FaUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>100+</small>
+              <FaUniversity className="about_icon" />
+              <h5>Education</h5>
+              <small>Mechanical Engineering,  IITK 2024</small>
             </article>
             <article className="about_card">
               <GrProjects className="about_icon" />

@@ -15,8 +15,7 @@ const Services = () => {
             <li>
               <FaCheck className="service_list-icon" />
               <p>
-                Responsive Design: Ensuring websites look and function well
-                across various devices for a seamless user experience.
+              Responsive Design: Crafting websites for a seamless user experience on any device
               </p>
             </li>
             <li>
