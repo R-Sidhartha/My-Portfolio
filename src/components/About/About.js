@@ -30,7 +30,7 @@ const About = () => {
             <article className="about_card">
               <GrProjects className="about_icon" />
               <h5>Projects</h5>
-              <small>10 Completed Projects</small>
+              <small>8 Completed Projects</small>
             </article>
           </div>
           <p>

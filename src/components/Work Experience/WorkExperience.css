@@ -52,7 +52,7 @@
   flex-direction: column;
   margin-top: 8rem;
   justify-content: center;
-  gap: 8rem;
+  gap: 5rem;
 }
 .right-horizontal-lines {
   display: flex;
