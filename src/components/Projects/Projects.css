@@ -66,4 +66,10 @@ background: transparent;
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .tag-buttons{
+        gap: 5px;
+    }
+    .tag-buttons button{
+        font-size: smaller;
+    }
     }

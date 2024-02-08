@@ -21,6 +21,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+  color: #10c0f6;
 }
 .company-details p{
     font-size: small;
@@ -117,3 +118,31 @@ p {
   margin: 0;
   padding: 10px;
 }
+
+  @media screen and (max-width:1300px){
+    .workexperience_container{
+      padding: 2rem 1rem;
+    }
+  .lines{
+     flex-direction: column;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .left-horizontal-lines{
+    margin-top: 0;
+    gap: 1rem;
+  }
+  .right-horizontal-lines{
+    gap: 1rem;
+  }
+  .contribution{
+    flex-direction: row;
+  }
+  .horizontal-line{
+    display: none;
+  }
+  }
