@@ -64,6 +64,7 @@ header{
 }
 .me{
     left: 0;
+    width: auto;
 }
 .header_socials,.scroll_down{
     display: none;

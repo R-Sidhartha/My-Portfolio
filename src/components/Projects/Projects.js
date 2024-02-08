@@ -7,6 +7,7 @@ import newsapp from "../Pics/news1.png";
 import weatherapp from "../Pics/weatherapp1.png";
 import RapidTalk from '../Pics/RapidTalk.png';
 import ThreadsClone from '../Pics/ThreadsClone.png';
+import DreamDomicile from '../Pics/DreamDomicile.png';
 const projects=[
     {
       id:1,
@@ -18,6 +19,14 @@ const projects=[
     },
     {
       id:2,
+      image:DreamDomicile,
+      title:"DreamDormicile - Elevating Real Estate Experiences with MERN",
+      tag:"MERN Stack",
+      github:"https://github.com/R-Sidhartha/DreamDormicile-App.git",
+      demo:"https://dream-domicile-app.vercel.app/"
+    },
+    {
+      id:3,
       image:RapidTalk,
       title:"RapidTalk - A real-time chat application built using websockets.",
       tag:"MERN Stack",
@@ -25,7 +34,7 @@ const projects=[
       demo:"https://rapidtalk.onrender.com"
     },
     {
-    id:3,
+    id:4,
     image:aistory,
     title:"FictionFusionAI - A Cutting-Edge Social Storytelling Platform using MERN Stack",
     tag:"MERN Stack",
@@ -33,7 +42,7 @@ const projects=[
     demo:"https://fictionfusionai.onrender.com/"
   },
   {
-    id:4,
+    id:5,
     image:inotebook,
     title:"iNoteBook - A Dynamic MERN stack Application for a Note-Taking Solution",
     tag:"MERN Stack",
@@ -41,7 +50,7 @@ const projects=[
     demo:"https://inotebook-cloudstoring.netlify.app/"
   },
   {
-    id:5,
+    id:6,
     image:game,
     title:"2048-Game - Seamlessly Crafted Game with p5 Integration and Strategic Logic",
     tag:"Frontend",
@@ -49,7 +58,7 @@ const projects=[
     demo:"https://two048-game-awca.onrender.com/"
   },
   {
-    id:6,
+    id:7,
     image:newsapp,
     title:"NewsExpress - A React-Powered News platform with Engaging UI and Fluid Navigation",
     tag:"Frontend",
@@ -57,7 +66,7 @@ const projects=[
     demo:""
   },
   {
-    id:7,
+    id:8,
     image:weatherapp,
     title:"ForecastCentral - Aesthetic Weather insights with Real-time Data and Intuitive Design",
     tag:"Frontend",
