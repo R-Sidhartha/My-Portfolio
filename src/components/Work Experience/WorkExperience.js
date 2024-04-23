@@ -17,24 +17,34 @@ const WorkExperience = () => {
               <div className="contribution">
                 <div className="horizontal-line"></div>
                 <div>
-                  <h4>Innovative Data Input with React and Tailwind CSS</h4>
+                  <h4>ADVANCED AI-POWERED CHATBOT PLATFORM ECOSYSTEM DEVELOPMENT</h4>
                   <div className="task_details">
                     <li>
                       <span className="head">Achievement: </span>
                       <span className="details">
-                        Innovated data input through React and Tailwind CSS.
+                      Spearheaded the creation of an innovative chatbot generator platform, transforming user interaction and engagement dynamics.
+                      </span>
+                    </li>
+                    <li>
+                      <span className="head">Impact: </span>
+                      <span className="details">
+                      Enhanced user empowerment: Introduced customizable UI options, conversation tracking, and seamless website integration, facilitating effortless chatbot deployment.
                       </span>
                     </li>
                     <li>
                       <span className="head">Features:</span>
                       <ul className="nested-list">
                         <li>
-                          Seamlessly handled diverse sources like files, text,
-                          and QA for ChatBot training.
+                        Seamless React and Tailwind CSS integration for scalable UI components.
                         </li>
                         <li>
-                          Implemented features such as character count
-                          and drag-and-drop for PDFs.
+                        Robust user <strong className="highlights">authentication</strong> system with signup, login, and password recovery functionalities.
+                        </li>
+                        <li>
+                        Empowered users to <strong className="highlights">retrain</strong> chatbots and tailor their <strong className="highlights">appearance</strong> and behavior effortlessly.
+                        </li>
+                        <li>
+                        Facilitated easy <strong className="highlights">integration</strong> with external data sources, enabling dynamic chatbot interactions.
                         </li>
                       </ul>
                     </li>
@@ -44,7 +54,7 @@ const WorkExperience = () => {
               <div className="contribution">
                 <div className="horizontal-line"></div>
                 <div>
-                  <h4>Dynamic Custom Plugin Development:</h4>
+                  <h4>Dynamic WORDPRESS Plugin Development:</h4>
                   <div className="task_details">
                     <li>
                       <span className="head">Achievement: </span>
@@ -57,7 +67,7 @@ const WorkExperience = () => {
                       <span className="head">Impact:</span>
                       <span className="details">
                         {" "}
-                        Elevated WordPress UX with a dynamic Chat Cells Chatbot
+                        Elevated WordPress UX with a dynamic ChatCells Chatbot
                         plugin, delivering top-notch security and user control.
                       </span>
                     </li>
@@ -65,13 +75,13 @@ const WorkExperience = () => {
                       <span className="head">Features:</span>
                       <ul className="nested-list">
                         <li>
-                          Implemented cutting-edge API key authentication.
+                          Implemented cutting-edge <strong className="highlights">API key authentication</strong>.
                         </li>
                         <li>
-                          Seamlessly embedded Chat Cells Chatbot into WordPress.
+                          Seamlessly embedded ChatCells Chatbot into WordPress.
                         </li>
                         <li>
-                          Empowered users for effortless customization,
+                          Empowered users for effortless <strong className="highlights">customization</strong>,
                           unparalleled control, and experience.
                         </li>
                       </ul>
@@ -82,29 +92,6 @@ const WorkExperience = () => {
             </div>
             <div className="vertical-line"></div>
             <div className="right-horizontal-lines">
-              <div className="right-contribution">
-                <div className="horizontal-line"></div>
-                <div>
-                  <h4>User Authentication Page Development</h4>
-                  <div className="task_details">
-                    <li>
-                      <span className="head">Achievement: </span>
-                      <span className="details">
-                        Developed a robust and secure user authentication page
-                        using React.
-                      </span>
-                    </li>
-                    <li>
-                      <span className="head">Impact:</span>
-                      <span className="details">
-                        {" "}
-                        Ensured seamless and secure access for authorized
-                        personnel.
-                      </span>
-                    </li>
-                  </div>
-                </div>
-              </div>
               <div className="right-contribution">
                 <div className="horizontal-line"></div>
                 <div>
@@ -138,8 +125,8 @@ const WorkExperience = () => {
                           information.
                         </li>
                         <li>
-                          Developed an interactive test webpage using
-                          React-record-webcam technology.
+                          Developed an <strong className="highlights">interactive test</strong> webpage using
+                          <strong className="highlights"> React-record-webcam technology</strong>.
                         </li>
                         <li>
                           Enabled users to answer questions in front of the
