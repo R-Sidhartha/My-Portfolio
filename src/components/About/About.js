@@ -34,8 +34,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm R Sidharth, a final-year Mechanical Engineering student at IIT
-            Kanpur. Passionate about technology, especially web development.
+            I'm R Sidharth, a graduate in Mechanical Engineering from IIT Kanpur. Passionate about technology, especially web development.
             Eager to contribute expertise to innovative and growth-oriented
             professional environments.
           </p>

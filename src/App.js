@@ -8,7 +8,7 @@ import Nav from './components/Nav/Nav';
 import Services from './components/Services/Services';
 // import Testimonials from './components/Testimonials/Testimonials';
 import Projects from './components/Projects/Projects';
-import WorkExperience from './components/Work Experience/WorkExperience';
+import WorkExperiences from './components/Work Experience/WorkExperiences';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Nav/>
       <About/>
       <Experience/>
-      <WorkExperience/>
+      <WorkExperiences/>
       <Projects/>
       <Services/>
       {/* <Testimonials/> */}

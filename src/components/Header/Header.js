@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import mypic2 from '../Pics/mypic3.jpg'
+import mypic2 from '../Pics/mypic2.jpg'
 const Header = () => {
   const [borderRadius, setBorderRadius] = useState('30% 70% 62% 38% / 44% 28% 72% 56%');
   useEffect(() => {
