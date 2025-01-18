@@ -44,9 +44,9 @@ const Header = () => {
           </div>
           <a href="#contact" className="scroll_down">Scroll Down</a>
           <div className="header_socials">
-            <a href="https://instagram.com/sid_an_enigmatic_story_?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" ><FaInstagram /></a>
+            <a href="https://instagram.com/_enigmatic_journey?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" ><FaInstagram /></a>
             <a href="https://www.linkedin.com/in/r-sidhartha-003a17262" target="_blank" rel="noopener noreferrer" ><FaLinkedinIn /></a>
-            <a href="https://www.threads.net/@sid_an_enigmatic_story_" target="_blank" rel="noopener noreferrer" ><FaThreads /></a>
+            <a href="https://www.threads.net/@_enigmatic_journey" target="_blank" rel="noopener noreferrer" ><FaThreads /></a>
             <a href="https://github.com/R-Sidhartha" target="_blank" rel="noopener noreferrer" ><FaGithub /></a>
 
           </div>
