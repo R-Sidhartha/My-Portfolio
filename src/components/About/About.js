@@ -25,16 +25,17 @@ const About = () => {
             <article className="about_card">
               <FaUniversity className="about_icon" />
               <h5>Education</h5>
-              <small>Mechanical Engineering,  IITK 2024</small>
+              <small>Mechanical Engineering, IITK 2024</small>
             </article>
             <article className="about_card">
               <GrProjects className="about_icon" />
               <h5>Projects</h5>
-              <small>8 Completed Projects</small>
+              <small>9 Completed Projects</small>
             </article>
           </div>
           <p>
-            I'm R Sidharth, a graduate in Mechanical Engineering from IIT Kanpur. Passionate about technology, especially web development.
+            I'm R Sidharth, a graduate in Mechanical Engineering from IIT
+            Kanpur. Passionate about technology, especially web development.
             Eager to contribute expertise to innovative and growth-oriented
             professional environments.
           </p>

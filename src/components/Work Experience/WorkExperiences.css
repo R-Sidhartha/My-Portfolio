@@ -9,13 +9,13 @@
 }
 
 .work-card {
-    box-shadow: 0 8px 12px rgba(220, 211, 211, 0.2);
-  }
-  
-  .work-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(220, 211, 211, 0.2);
-  }
+  box-shadow: 0 8px 12px rgba(220, 211, 211, 0.2);
+}
+
+.work-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(220, 211, 211, 0.2);
+}
 
 h1 {
   text-align: center;
@@ -149,8 +149,13 @@ h1 {
   bottom: 0.25rem;
 }
 
-.logo{
+.logo {
   width: 250px;
+  margin: 5px auto;
+}
+
+.small-logo {
+  width: 200px;
   margin: 5px auto;
 }
 
@@ -193,21 +198,20 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.workexperience_container{
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+.workexperience_container {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
-.workexperience_container:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
+.workexperience_container:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
 }
 
-
-  @media screen and (max-width:1300px){
-    .workexperience_container{
-      padding: 2rem 1rem;
-    }
+@media screen and (max-width: 1300px) {
+  .workexperience_container {
+    padding: 2rem 1rem;
   }
+}
