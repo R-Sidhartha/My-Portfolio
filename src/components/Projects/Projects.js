@@ -14,7 +14,7 @@ const projects = [
     id: 1,
     image: CodeSphere,
     title:
-      "CodeSphere: AI-Driven, Real-Time Developer Community with Dynamic Reputation & Scalable Architecture",
+      "CodeSphere: Real-Time Developer Community with Dynamic Reputation & Scalable Architecture",
     tag: "Next Js",
     github: "https://github.com/R-Sidhartha/CodeSphere.git",
     demo: "https://code-sphere-nu.vercel.app/",
