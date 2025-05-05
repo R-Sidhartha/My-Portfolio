@@ -9,6 +9,10 @@ import FlexiEle2 from "./Pictures/RelatedPics/FlexiEleProfileTab.png";
 import FlexiEle3 from "./Pictures/RelatedPics/FlexiEleLMS.png";
 import ChatcellsLogo from "./Pictures/Logos/chatcellsLogo.png";
 import FlexiEleLogo from "./Pictures/Logos/Flexiele Logo.png";
+import ResumeXpertLogo from "./Pictures/Logos/ResumeXpertAILogo.png";
+import ResumeXpertAI1 from "./Pictures/RelatedPics/ResumeXpertAI1.png";
+import ResumeXpertAI2 from "./Pictures/RelatedPics/ResumeXpertAI2.png";
+import ResumeXpertAI from "./Pictures/RelatedPics/ResumeXpertAIHomePage.png";
 const TimeLine3 = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({});
@@ -117,6 +121,61 @@ const TimeLine3 = () => {
       ],
       images: [FlexiEle1, FlexiEle2, FlexiEle3],
     },
+    {
+      id: 3,
+      title: "Founder & Fullstack Engineer",
+      company: "ResumeXpert AI",
+      date: "May-25 to Present",
+      CompanyLogo: ResumeXpertLogo,
+      description: [
+        {
+          heading: "AI-POWERED RESUME BUILDER PLATFORM",
+          Achievement:
+            "Ideated, architected, and launched ResumeXpert AI, a SaaS platform that empowers users to generate ATS-optimized, recruiter-ready resumes using advanced AI models and real-time LaTeX compilation. Owned the entire product lifecycle from inception to deployment and public release at resumexpertai.com.",
+          Impact:
+            "Founder Leadership: Spearheaded all product, design, and engineering decisions, delivering an enterprise-grade application with secure authentication, subscription billing, and blazing-fast performance. Positioned ResumeXpert AI as a cutting-edge tool for job seekers, driving early market traction and brand credibility.",
+          Features: [
+            "Dynamic LaTeX resume editor with real-time PDF previews, ensuring pixel-perfect, professional-grade resumes.",
+            "AI-generated resume content, providing users with compelling summaries, achievements, and experience descriptions tailored for maximum recruiter impact.",
+            "Tiered subscription model (Free, Gold, Diamond) with feature gating, integrated via Stripe for seamless payments and billing management.",
+            "Drag-and-drop section reordering and customizable resume settings (colors, bullet icons, spacing, margins) for maximum personalization.",
+            "Cloudinary-backed PDF and thumbnail storage with lazy-loaded previews, optimizing frontend performance and reducing backend load.",
+            "Offline-first architecture with IndexedDB caching, ensuring uninterrupted user experience even in low-connectivity environments.",
+            "Advanced analytics dashboard (internal) to track user engagement, conversion funnels, and feature adoption metrics.",
+            "Secure Clerk-based authentication system with email magic links and social login support.",
+          ],
+        },
+        {
+          heading: "PERFORMANCE OPTIMIZATION & SYSTEM ARCHITECTURE",
+          Achievement:
+            "Engineered a modular, scalable architecture using Next.js 14 App Router, React Server Components, Prisma ORM, PostgreSQL, and Tailwind CSS, optimized for both SSR and static rendering. Implemented caching strategies, preloading, and lazy loading to achieve sub-second page loads.",
+          Impact:
+            "Achieved a 95+ Lighthouse performance score, reduced TTFB, and enhanced SEO readiness, laying the groundwork for viral growth and organic acquisition. Ensured system resilience under load and designed for scale-out across future user bases.",
+          Features: [
+            "Dynamic `import()` with SSR disabled on heavy client components to improve hydration speed.",
+            "IndexedDB caching of LaTeX dependencies, thumbnails, and user data, drastically reducing redundant server requests.",
+            "Debounced LaTeX compilation pipeline to minimize resource usage and prevent unnecessary recomputations.",
+            "Optimized API routes with fine-grained error handling and database transactions to ensure data consistency and integrity.",
+            "Implemented granular loading states and skeleton UIs for an ultra-smooth user experience.",
+          ],
+        },
+        {
+          heading: "DIFFICULTIES, CHALLENGES & INNOVATIVE SOLUTIONS",
+          Achievement:
+            "Overcame complex technical challenges including real-time LaTeX compilation in the browser, managing PDF generation at scale, and ensuring offline support. Innovatively bridged AI content generation with human-centered design.",
+          Impact:
+            "Delivered a seamless and delightful user experience despite backend complexity. Transformed challenging engineering problems into competitive advantages that elevated ResumeXpert AI above typical resume builders.",
+          Features: [
+            "Built a custom LaTeX preloader and in-memory filesystem using PdfTeXEngine, reducing compile time by ~50%.",
+            "Integrated OpenAI APIs with carefully crafted prompts to generate ATS-optimized resume sections with statistical impact.",
+            "Created a fallback and recovery system to gracefully handle API or server failures without disrupting the user workflow.",
+            "Implemented a Cloudinary pipeline for automatic PDF thumbnail generation, providing visual previews and boosting UX.",
+            "Developed a reusable customization engine that adapts to multiple LaTeX templates, enabling future expansion with minimal dev effort.",
+          ],
+        },
+      ],
+      images: [ResumeXpertAI, ResumeXpertAI1, ResumeXpertAI2],
+    },
     // Add more work experiences if needed
   ];
 
@@ -143,7 +202,12 @@ const TimeLine3 = () => {
                 key={experience.id}
                 className="work-card"
                 style={{
-                  "--accent-color": experience.id === 1 ? "#41516C" : "#FBCA3E",
+                  "--accent-color":
+                    experience.id === 1
+                      ? "#41516C" // ID 1 color
+                      : experience.id === 2
+                      ? "#FBCA3E" // ID 2 color
+                      : "#4CAF50", // ID 3 color
                 }}
                 onClick={() => openModal(experience)}
               >
@@ -154,7 +218,7 @@ const TimeLine3 = () => {
                 </div>
                 <div
                   className={` ${
-                    experience.id === 2 ? " small-logo " : " logo "
+                    experience.id !== 1 ? " small-logo " : " logo "
                   }`}
                 >
                   <img src={experience.CompanyLogo} alt="logo" />

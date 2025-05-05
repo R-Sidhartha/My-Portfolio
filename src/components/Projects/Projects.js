@@ -9,9 +9,19 @@ import RapidTalk from "../Pics/RapidTalk.png";
 import ThreadsClone from "../Pics/ThreadsClone.png";
 import DreamDomicile from "../Pics/DreamDomicile.png";
 import CodeSphere from "../Pics/CodeSphereHomePage.png";
+import ResumeXpertAI from "../Pics/ResumeXpertAIHomePage.png";
 const projects = [
   {
     id: 1,
+    image: ResumeXpertAI,
+    title:
+      "ResumeXpert AI: Revolutionizing LaTeX Resume Building with AI Technology",
+    tag: "Next Js",
+    github: "",
+    demo: "https://www.resumexpertai.com",
+  },
+  {
+    id: 2,
     image: CodeSphere,
     title:
       "CodeSphere: Real-Time Developer Community with Dynamic Reputation & Scalable Architecture",
@@ -20,7 +30,7 @@ const projects = [
     demo: "https://code-sphere-nu.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: ThreadsClone,
     title: "Threads App Clone: Dynamic Communities Powered by Next.js Magic.",
     tag: "Next Js",
@@ -28,7 +38,7 @@ const projects = [
     demo: "https://threads-clone-silk.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: DreamDomicile,
     title: "DreamDormicile - Elevating Real Estate Experiences with MERN",
     tag: "MERN Stack",
@@ -36,7 +46,7 @@ const projects = [
     demo: "https://dream-domicile-app.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: RapidTalk,
     title: "RapidTalk - A real-time chat application built using websockets.",
     tag: "MERN Stack",
@@ -44,7 +54,7 @@ const projects = [
     demo: "https://rapidtalk.onrender.com",
   },
   {
-    id: 5,
+    id: 6,
     image: aistory,
     title:
       "FictionFusionAI - A Cutting-Edge Social Storytelling Platform using MERN Stack",
@@ -53,7 +63,7 @@ const projects = [
     demo: "https://fictionfusionai.onrender.com/",
   },
   {
-    id: 6,
+    id: 7,
     image: inotebook,
     title:
       "iNoteBook - A Dynamic MERN stack Application for a Note-Taking Solution",
@@ -62,7 +72,7 @@ const projects = [
     demo: "https://inotebook-cloudstoring.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     image: game,
     title:
       "2048-Game - Seamlessly Crafted Game with p5 Integration and Strategic Logic",
@@ -71,7 +81,7 @@ const projects = [
     demo: "https://two048-game-awca.onrender.com/",
   },
   {
-    id: 8,
+    id: 9,
     image: newsapp,
     title:
       "NewsExpress - A React-Powered News platform with Engaging UI and Fluid Navigation",
@@ -80,7 +90,7 @@ const projects = [
     demo: "",
   },
   {
-    id: 9,
+    id: 10,
     image: weatherapp,
     title:
       "ForecastCentral - Aesthetic Weather insights with Real-time Data and Intuitive Design",
@@ -123,14 +133,16 @@ const Projects = () => {
               </div>
               <h5>{title}</h5>
               <div className="portfolio_item-cta">
-                <a
-                  href={github}
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
+                {github && github.trim().length > 0 && (
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                )}
                 <a
                   href={demo}
                   className="btn btn-primary"
@@ -138,7 +150,9 @@ const Projects = () => {
                   rel="noreferrer"
                   style={{ display: `${demo.length === 0 ? " none " : ""}` }}
                 >
-                  Live Demo
+                  {title.includes("ResumeXpert AI")
+                    ? "Explore ResumeXpert AI"
+                    : "Live Demo"}
                 </a>
               </div>
             </article>

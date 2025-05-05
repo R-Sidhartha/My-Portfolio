@@ -5,6 +5,8 @@ const TypeAnimationComponent = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
+        "Founder & Developer - ResumeXpert AI",
+        1000,
         "Full-Stack Developer",
         1000, // wait 1s before replacing "Mice" with "Hamsters"
         "Frontend Developer",

@@ -30,14 +30,20 @@ const About = () => {
             <article className="about_card">
               <GrProjects className="about_icon" />
               <h5>Projects</h5>
-              <small>9 Completed Projects</small>
+              <small>10 Completed Projects</small>
             </article>
           </div>
           <p>
-            I'm R Sidharth, a graduate in Mechanical Engineering from IIT
-            Kanpur. Passionate about technology, especially web development.
-            Eager to contribute expertise to innovative and growth-oriented
-            professional environments.
+            I'm R Sidharth, a Mechanical Engineering graduate from IIT Kanpur
+            with a deep passion for technology and web development. As the
+            founder and developer of a SaaS application, I bring hands-on
+            expertise in building scalable, high-performance products using
+            modern full-stack technologies. With advanced skills in React,
+            Next.js, Node.js, TypeScript, Prisma, PostgreSQL, and Stripe
+            integrations, I thrive on creating elegant solutions that deliver
+            real business impact. Eager to contribute my technical leadership,
+            product thinking, and software craftsmanship to innovative and
+            growth-driven teams.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
