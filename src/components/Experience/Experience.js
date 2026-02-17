@@ -89,6 +89,13 @@ const Experience = () => {
             <article className="experience_details">
               <HiBadgeCheck className="experience_details_icons" />
               <div>
+                <h4>MySQL</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiBadgeCheck className="experience_details_icons" />
+              <div>
                 <h4>PostgreSQL</h4>
                 <small className="text-light">Intermediate</small>
               </div>
@@ -147,13 +154,13 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="experience_details">
+            {/* <article className="experience_details">
               <HiBadgeCheck className="experience_details_icons" />
               <div>
                 <h4>Python</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article>
+            </article> */}
             <article className="experience_details">
               <HiBadgeCheck className="experience_details_icons" />
               <div>
@@ -216,6 +223,20 @@ const Experience = () => {
               <HiBadgeCheck className="experience_details_icons" />
               <div>
                 <h4>Cloudflare</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiBadgeCheck className="experience_details_icons" />
+              <div>
+                <h4>JIRA</h4>
+                <small className="text-light">Advanced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiBadgeCheck className="experience_details_icons" />
+              <div>
+                <h4>n8n</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

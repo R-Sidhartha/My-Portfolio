@@ -13,6 +13,10 @@ import ResumeXpertLogo from "./Pictures/Logos/ResumeXpertAILogo.png";
 import ResumeXpertAI1 from "./Pictures/RelatedPics/ResumeXpertAI1.png";
 import ResumeXpertAI2 from "./Pictures/RelatedPics/ResumeXpertAI2.png";
 import ResumeXpertAI from "./Pictures/RelatedPics/ResumeXpertAIHomePage.png";
+import StrategyXLogo from "./Pictures/Logos/StrategyXLogo.png";
+import StrategyX1 from "./Pictures/RelatedPics/StartegyX1.png";
+import StrategyX2 from "./Pictures/RelatedPics/StartegyX2.png";
+import StrategyX3 from "./Pictures/RelatedPics/StartegyX3.png";
 const TimeLine3 = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({});
@@ -176,7 +180,57 @@ const TimeLine3 = () => {
       ],
       images: [ResumeXpertAI, ResumeXpertAI1, ResumeXpertAI2],
     },
-    // Add more work experiences if needed
+    {
+      id: 4,
+      title: "Software Developer",
+      company: "StrategyX",
+      date: "June-25 to Present",
+      CompanyLogo: StrategyXLogo,
+      description: [
+        {
+          heading: "LEGACY MONOLITH TO MODERN SCALABLE ARCHITECTURE MIGRATION",
+          Achievement:
+            "Led the migration of a legacy PHP monolith to a modern Next.js + Node.js + Express + MySQL stack, designing a modular and scalable system architecture.",
+          Impact:
+            "Improved system performance and user experience by reducing page load time by 35% and enhancing First Contentful Paint (FCP) by 40% across key dashboards.",
+          Features: [
+            "Designed a clean modular architecture with separation of concerns for maintainability and scalability.",
+            "Implemented performance optimizations using dynamic imports and code-splitting.",
+            "Reduced JavaScript bundle size by 30%, improving perceived responsiveness.",
+            "Enhanced frontend reliability using reusable hooks and structured state management."
+          ],
+        },
+        {
+          heading: "ENTERPRISE-GRADE RBAC & SECURE WORKFLOW SYSTEM",
+          Achievement:
+            "Architected a secure role-based access control (RBAC) system with 5 hierarchical roles (Super Admin → Staff) to enable gated enterprise workflows.",
+          Impact:
+            "Enabled dynamic permissions, audit-safe access control, and structured operational governance across the SaaS platform.",
+          Features: [
+            "Implemented hierarchical permission management with fine-grained access control.",
+            "Designed dynamic workflow gating based on user roles and actions.",
+            "Integrated JWT-based secure authentication mechanisms.",
+            "Ensured audit-safe data access and secure enterprise usage patterns."
+          ],
+        },
+        {
+          heading: "SCALABLE B2B SAAS MODULE DEVELOPMENT & PERFORMANCE ENGINEERING",
+          Achievement:
+            "Built and scaled complex B2B SaaS modules including Process Engineering, Audits, Master Documents, Assessments, and RCA with advanced relational data handling.",
+          Impact:
+            "Improved operational efficiency and data visibility through nested workflows, advanced filtering, and optimized database querying.",
+          Features: [
+            "Engineered reusable, type-safe UI systems using Next.js App Router, Prisma, Zod, and ShadCN.",
+            "Developed highly configurable tables and forms, reducing duplicate code by 40%.",
+            "Optimized database queries and relational mappings for high-concurrency usage.",
+            "Delivered scalable, reliability-focused product experiences improving feature adoption during client demos."
+          ],
+        },
+      ],
+      images: [StrategyX1, StrategyX2, StrategyX3],
+
+    }    
+      // Add more work experiences if needed
   ];
 
   // Function to open modal with specific content
@@ -207,7 +261,11 @@ const TimeLine3 = () => {
                       ? "#41516C" // ID 1 color
                       : experience.id === 2
                       ? "#FBCA3E" // ID 2 color
-                      : "#4CAF50", // ID 3 color
+                      : experience.id === 3
+                      ? "#66CDAA" // ID 3 color
+                      : experience.id === 4
+                      ? "#228B22" // ID 4 color
+                      : "#4CAF50", // ID 5 color
                 }}
                 onClick={() => openModal(experience)}
               >

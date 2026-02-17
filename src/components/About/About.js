@@ -20,7 +20,7 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ year Experience</small>
+              <small>2+ year Experience</small>
             </article>
             <article className="about_card">
               <FaUniversity className="about_icon" />
@@ -30,20 +30,11 @@ const About = () => {
             <article className="about_card">
               <GrProjects className="about_icon" />
               <h5>Projects</h5>
-              <small>10 Completed Projects</small>
+              <small>15+ Completed Projects</small>
             </article>
           </div>
           <p>
-            I'm R Sidharth, a Mechanical Engineering graduate from IIT Kanpur
-            with a deep passion for technology and web development. As the
-            founder and developer of a SaaS application, I bring hands-on
-            expertise in building scalable, high-performance products using
-            modern full-stack technologies. With advanced skills in React,
-            Next.js, Node.js, TypeScript, Prisma, PostgreSQL, and Stripe
-            integrations, I thrive on creating elegant solutions that deliver
-            real business impact. Eager to contribute my technical leadership,
-            product thinking, and software craftsmanship to innovative and
-            growth-driven teams.
+          I'm R Sidhartha, an IIT Kanpur graduate and Software Developer currently leading high-impact product engineering initiatives in a production-grade B2B SaaS environment. I specialize in architecting scalable full-stack systems, migrating legacy monoliths to modern modular architectures, and driving measurable performance improvements across complex applications. As the Founder of an AI-powered SaaS platform, I’ve built and scaled secure, high-performance systems integrating OpenAI APIs, Redis caching, real-time PDF generation, and subscription billing workflows. With advanced expertise in Next.js, React, Node.js, TypeScript, Prisma, PostgreSQL, and system design, I combine deep technical ownership with strong product thinking to build reliable, scalable, and business-driven software solutions for ambitious teams.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

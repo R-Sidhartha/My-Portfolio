@@ -10,6 +10,7 @@
 
 .work-card {
   box-shadow: 0 8px 12px rgba(220, 211, 211, 0.2);
+  height: 16rem;
 }
 
 .work-card:hover {
@@ -23,7 +24,7 @@ h1 {
 
 .experience_card ul {
   --col-gap: 2rem;
-  --row-gap: 2rem;
+  --row-gap: 12.5rem;
   --line-w: 0.25rem;
   display: grid;
   grid-template-columns: var(--line-w) 1fr;
@@ -32,6 +33,7 @@ h1 {
   list-style: none;
   width: min(60rem, 90%);
   margin-inline: auto;
+  /* height: 60rem; */
 }
 
 /* line */
